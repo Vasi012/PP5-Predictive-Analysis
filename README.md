@@ -23,7 +23,7 @@ Hypothesis for the sale prices after refurbishment.
 ## Unfixed Bugs
 ## Deployment
 ## Heroku
-•	The App live link is: https://house-sales-price-predictor.herokuapp.com/
+•	The App live link is: here
 •	The project was deployed to Heroku using the following steps.
 1.	Log in to Heroku and create an App
 2.	At the Deploy tab, select GitHub as the deployment method.
