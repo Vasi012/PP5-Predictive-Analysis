@@ -257,17 +257,52 @@ will be almost finished.
 
 ## Deployment
 
----
+The master branch of this repository has been used for the deployed version of this application.
 
-## Heroku
- 
-- The App live link is: 
+## Using Github & Gitpod
+
+To deploy my Data application, I had to use the [Code Institute Full Template](https://github.com/Code-Institute-Solutions/milestone-project-heritage-housing-issues).
+
+- Click the Use This Template button.
+- Add a repository name and brief description.
+- Click the Create Repository from Template to create your repository.
+- To create a Gitpod workspace you then need to click Gitpod, this can take a few minutes.
+- When you want to work on the project it is best to open the workspace from Gitpod (rather than Github) as this will open your previous workspace rather than creating a new one. You should pin the workspace so that it isn't deleted.
+- Committing your work should be done often and should have clear/explanatory messages, use the following commands to make your commits:
+	- git add .: adds all modified files to a staging area
+	- git commit -m "A message explaining your commit": commits all changes to a local repository.
+	- git push: pushes all your committed changes to your Github repository.
+
+## Forking the GitHub Repository
+
+By forking the GitHub Repository you will be able to make a copy of the original repository on your own GitHub account allowing you to view and/or make changes without affecting the original repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](link)
+2. At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+## Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open commandline interface on your computer
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+
+$ git clone [ADD Project link]
+
+7. Press Enter. Your local clone will be created.
+
+## Deployment To Heroku
+
+- The App live link is: add link
 - The project was deployed to Heroku using the following steps.
-1.	Log in to Heroku and create an App
-2.	At the Deploy tab, select GitHub as the deployment method.
-3.	Select your repository name and click Search. Once it is found, click Connect.
-4.	Select the branch you want to deploy, then click Deploy Branch.
-5.	The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
+1. Log in to Heroku and create an App
+2. At the Deploy tab, select GitHub as the deployment method.
+3. Select your repository name and click Search. Once it is found, click Connect.
+4. Select the branch you want to deploy, then click Deploy Branch.
+5. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
 
 ---
 
