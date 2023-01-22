@@ -72,11 +72,25 @@ My niece has conducted research, and she found a public dataset for the houses t
 
 ## Hypothesis and how to validate?
 
-Hypothesis for the sale prices after refurbishment.
+1. Hypothesis one.
 
--	An evaluation must be conducted on the dataset that has been received from my niece in order to visualise the other houses that have been sold in that area. Following this evaluation, we will be able to see what is the criteria that influences the pricing of each house that has been sold, and what are the similar attributes to the 6 houses that my niece would like to sell.
+- We consider the price of houses to be higher if the house has had a larger surface measured in sq. ft.
+	- A correlation study can help in investigating if this is true.
 
--	The analysis shows that the important factors to determine a house price is highly influenced by the size of each room. Starting with the ground floor, leaving room, the first floor and if the house has a basement or a garage. As part of the factors that influence the house prices, we have to include the year of construction, the quality of the used materials and the last refurbishments.
+2. Hypothesis Two.
+
+- We consider that the houses with the same util surface measured in sq. ft. but built more recently has had a higher price then a older built home.
+	- A correlation study can help in investigating if this is true.
+
+3. Hypothesis Three.
+
+- We consider that the houses with the same util surface measured in sq. ft. built in a recent year but remodeled recently has had a higher price then a house built in the same year but not remodeled. 
+	- A correlation study can help in investigating if this is true.
+
+4. Hypothesis Four.
+
+- We consider that a house with similar sq. ft., but with a higher quality of materials and condition scores might have had a higher sales price.
+	- A correlation study can help in investigating if this is true.
 
 ---
 
