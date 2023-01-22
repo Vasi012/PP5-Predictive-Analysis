@@ -242,8 +242,20 @@ Heroku
 
 •	The App live link is: TBC 
 
+## ML Business Case
+## Business Case Assessment
+## Dashboard Design
+## Dashboard Expectations
+## Page 1: Quick project summary
+## Page 2: House Sale Price Study
+## Page 3: Price Predictor
+## Page 4: Project Hypothesis and Validation
+## Page 5: ML: House Sale Price Prediction
+## Unfixed Bugs
+## Deployment
+## Heroku
+•	The App live link is: https://house-sales-price-predictor.herokuapp.com/
 •	The project was deployed to Heroku using the following steps.
-
 1.	Log in to Heroku and create an App
 
 2.	At the Deploy tab, select GitHub as the deployment method.
