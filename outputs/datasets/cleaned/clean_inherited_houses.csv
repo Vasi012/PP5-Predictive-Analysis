@@ -1,0 +1,5 @@
+1stFlrSF,2ndFlrSF,BedroomAbvGr,BsmtExposure,BsmtFinSF1,BsmtFinType1,BsmtUnfSF,EnclosedPorch,GarageArea,GarageFinish,GarageYrBlt,GrLivArea,KitchenQual,LotArea,LotFrontage,MasVnrArea,OpenPorchSF,OverallCond,OverallQual,TotalBsmtSF,WoodDeckSF,YearBuilt,YearRemodAdd
+896,0,2,No,468,Rec,270,0,730,Unf,1961,896,TA,11622,80,0,0,6,5,882,140,1961,1961
+1329,0,3,No,923,ALQ,406,0,312,Unf,1958,1329,Gd,14267,81,108,36,6,6,1329,393,1958,1958
+928,701,3,No,791,GLQ,137,0,482,Fin,1997,1629,TA,13830,74,0,34,5,5,928,212,1997,1998
+926,678,3,No,602,GLQ,324,0,470,Fin,1998,1604,Gd,9978,78,20,36,6,6,926,360,1998,1998
