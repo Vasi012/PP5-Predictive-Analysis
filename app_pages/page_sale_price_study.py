@@ -19,14 +19,14 @@ def page_sale_price_study_body():
 
     st.write("### House Sale Price Study")
     st.info(
-        f"* My niece is interested in discovering how the house attributes "
+        f"My niece is interested in discovering how the house attributes "
         f"correlate with the sale price.\n"
         f"* Therefore, my niece expects data visualizations of the "
         f"correlated variables against the sale price to show that."
         )
 
     # inspect data
-    if st.checkbox("Inspect House Price Data"):
+    if st.checkbox("Inspect House Price Data:"):
         st.write(
             f"* The dataset has {df.shape[0]} rows and {df.shape[1]} columns, "
             f"the first 10 rows are displayed below.")
@@ -36,7 +36,7 @@ def page_sale_price_study_body():
     st.write("---")
 
     # Correlation Study Summary
-    st.write(
+    st.success(
         f"* Correlation studies were conducted, using the Pearson and Spearman methods "
         f"to better understand how the variables correlate to the sale price.\n"
         f"* The most correlated variable are: \n"
@@ -47,15 +47,15 @@ def page_sale_price_study_body():
     #  "Conclusions and Next steps" section
     st.info(
         f"### The correlations and plots interpretation converge.\n"
-        f"* The following are the variables isolated in the"
+        f"The following are the variables isolated in the"
         f" correlation study:\n"
         f"* 1stFlrSF: First Floor square feet.\n"
         f"* GarageArea: Size of garage in square feet.\n"
         f"* GrLivArea: Above grade (ground) living area square feet.\n"
-        f"* OverallQual: Rates the overall material and finish of the house when constructed / refurbished.\n"
+        f"* OverallQual: Rates the overall quality of the material and finish of the house when constructed / refurbished.\n"
         f"* TotalBsmtSF: Total square feet of basement area.\n"
         f"* YearBuilt: Original construction date (1872 to 2010).\n\n"
-        f"* The plots show that the variables, isolated in the "
+        f"The plots show that the variables, isolated in the "
         f" correlation study, do indeed have a strong correlation and "
         f" possibly strong predictive power for Sale Price for these houses.\n"
     )

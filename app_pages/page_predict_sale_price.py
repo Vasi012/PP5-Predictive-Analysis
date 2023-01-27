@@ -22,12 +22,11 @@ def page_predict_sale_price_body():
     st.write("### ML Pipeline: Predict House Sale Price")
     # display pipeline training summary conclusions
     st.warning(
-        f"A Regressor model has been chosen to predict sale price "
+        f"The Regressor model has been chosen to predict the sale price "
         f"for a given property.\n"
-        f"* Both feature selection and PCA produced similar results and met "
-        f"business requirement 1. However, feature selection "
-        f"performed better. Therefore, the best pipeline to use will be that "
-        f"of the feature selection.\n"
+        f"* Both feature selection and PCA produced similar results and meet "
+        f"business requirement 1. However, the feature selection "
+        f"performed better. Therefore, the best pipeline to use will be that. \n"
         f"* Feature selection achieved an R2 Score: 0.97 on the train set and "
         f"an R2 Score: 0.78 on the test set.\n"
         f"* My niece has required an R2 Score of 0.75+.\n"

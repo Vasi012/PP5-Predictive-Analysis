@@ -22,8 +22,8 @@ def page_price_predictor_body():
                       )
     feature_importance = list(pd.read_csv(f"{path}/feature_importance.csv")['Feature'])
 
-    st.write("### Sale Price Prediction for the refurbished houses")
-    st.write(
+    st.write("### Sale Price Prediction for the refurbished houses:")
+    st.success(
         f"* My niece is interested in predicting the house sales price"
         f" for her 6 newly refurbished houses, and any other house in Ames, Iowa."
         )
@@ -32,13 +32,13 @@ def page_price_predictor_body():
     st.write("### Refurbished houses price prediction")
     st.info(
         f"* Below are the details of the refurbished "
-        f"houses and their respective price predictions."
+        f"houses and their respective sale price predictions."
         )
     total_price = predict_refurbished_house_price(price_pipe, price_features)
     total_price = "%.2f" % total_price
     st.success(
         f"The sum total sale price for all your "
-        f"properties is \u20AC{total_price}."
+        f"properties is \u0024{total_price}."
         )
     st.write("---")
 
@@ -50,7 +50,12 @@ def page_price_predictor_body():
     st.write("### Houses Price Predictor")
     st.warning(
         f"* Enter your values for the property for "
-        f"which you require a **price prediction**."
+        f"which you require a **price prediction**.\n\n"
+        f"Legend: \n\n"
+        f"* 1stFlrSF - First Floor measured in square feet.\n"
+        f"* GrLivArea - Above grade (ground) living area square feet.\n"
+        f"* GarageArea - Size of garage in square feet.\n"
+        f"* YearBuilt - Original construction date."
         )
     X_live = DrawInputsWidgets()
 
@@ -62,7 +67,7 @@ def page_price_predictor_body():
         # logic to display the sale price
         statement = (
             f"The predicted selling price for this house "
-            f"is \u20AC{price_prediction}"
+            f"is \u0024{price_prediction}"
             )
 
         st.success(statement)
@@ -82,7 +87,7 @@ def predict_refurbished_house_price(price_pipe, price_features):
         price_prediction = "%.2f" % price_prediction
         statement = (
             f"* The predicted selling price for house "
-            f"{x+1} is \u20AC{price_prediction}"
+            f"{x+1} is \u0024{price_prediction}"
             )
         total_price += float(price_prediction)
         st.write(statement)

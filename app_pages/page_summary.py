@@ -7,34 +7,34 @@ import streamlit as st
 
 def page_summary_body():
 
-    st.write("### Quick Project Summary")
+    st.write("### Project Summary")
 
     # text based on README file - "Dataset Content" section
     st.info(
         f"**Project Dataset**\n"
-        f"* The dataset is sourced from **[Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data)**.\n"
-        f"* The dataset has 1.461 thousand rows and represents housing records from Ames, Iowa. "
-        f"**Ames, Iowa**\n"
-        f"* Ames has a robust, stable economy and a flourish cultural environment, with a population\n "
-        f"of 89.540 people. \n\n"
+        f"* The dataset is sourced from **[Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data)** being provided by Code Institute.\n"
+        f"* The dataset hosts 1.461 rows and represents housing records from Ames, Iowa. \n"
         f"* The dataset typically contains a house profile, "
         f"ie. Floor Area, Basement, Garage, Kitchen, Lot, Porch, Wood Deck, Year Built "
         f"and the respective sale price, for houses built between 1872 and 2010.\n\n"
-        f"**SalePrice** is the price a house sold for and is our target variable.\n")
+        f"**SalePrice** represents the price a house sold for and is our target variable.\n\n"
+        f"**Ames, Iowa**\n"
+        f"* Ames has a robust, stable economy and a flourish cultural environment, with a population\n "
+        f"of 89.540 people. \n\n")
 
     # "Business Requirements" section
-    st.write(
+    st.success(
         f"The project has 2 business requirements:\n"
         f"* 1 - My niece is interested in discovering how house attributes correlate with the sale price.\n"
         f"  * My niece expects data visualizations of the correlated variables against the sale price.\n"
-        f"* 2 - My niece is interested in predicting the house sales price from her new 6 refurbished houses, "
+        f"* 2 - My niece is interested in predicting the house sales price from her newly 6 refurbished houses, "
         f"and any other house in Ames, Iowa, that she will consider to buy or sell in the future."
         )
 
     # Link to README file, so the users can have access to full project documentation
-    st.info(
+    st.warning(
         f"* For additional information, please visit and **read** the "
-        f"[Project README file](https://github.com/Vasi012/PP5-Predictive-Analysis#readme)"
+        f"[Project README file.](https://github.com/Vasi012/PP5-Predictive-Analysis#readme)"
         )
 
     st.info(
