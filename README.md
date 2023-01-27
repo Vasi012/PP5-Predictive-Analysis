@@ -1,17 +1,37 @@
 ![For Sale](/static/images/frsale.png "Price Predictor")
 <img align="right" width="225" height="100" src="https://learningpeople.imgix.net/https%3A%2F%2Fadmin.learningpeople.com%2Fwp-content%2Fuploads%2F2019%2F01%2Fcode-institute.png?ixlib=gatsbyFP&fit=crop&auto=compress%2Cformat&w=320&h=141&s=3becdd2d48871285d91458e006867cb4" alt="code institute logo">
 
+---
+
+# House Pricing (PP5)
+
+This project has been made as part of the 5 milestone projects within the Full Stack Developer course provided by Code Institute. 
+This project will be the last one within this course, and represents the Predictive Analytics path that i have chosen. Therefore, the initial idea for this project was 'working with data'.
+
+In this project you will be taken step by step withing everything that is happening from data cleaning to feature engineering, as the content has been personalised in a specific way, making you feeling welcomed, and helping by offering a great understanding of each individual step and what I did and how I did. 
+
+At any point, if you get confused, please refer back to the readme file as you will find a lot of important information that has been used within the project.
+
+<-mokup image>
 
 
 
-# Dataset Content
+## Dataset Content
 
-- The dataset is sourced from Kaggle. 
+- The dataset is sourced from [Kaggle.](https://www.kaggle.com/)
 
-- I have created a fictional user story. However, the predictive analytics done, could be applied in a real project within the workplace.
+***What is Kaggle?***
 
-- The dataset that I have found on Kaggle is under the Code institute account, therefore, I have decided to trust this dataset and use it within my project. 
-This document has 1.461 rows and represents housing records from a city called Ames located within the region of Iowa, US.
+- *Kaggle is an online community platform for data scientists and machine learning enthusiasts.* 
+- *Kaggle allows users to collaborate with other users, find and publish datasets, use GPU integrated notebooks, and compete with other data scientists to solve data science challenges.*
+
+Within this project, I have created a fictional user story. 
+However, the predictive analytics done, could be applied in a real project within the workplace or if you live in Ames.
+
+- As mentioned above, the dataset I found on Kaggle, is under the Code institute account. 
+Therefore, I have decided to trust this dataset and use it within my project. 
+
+This document contains 1.460 *(1.461 including the name of each variable)* rows and represents housing records from a city called Ames located within the region of Iowa, US.
 
 - This dataset contains house profiles, such as: 
 	- floor areas, 
@@ -21,11 +41,11 @@ This document has 1.461 rows and represents housing records from a city called A
 	- lot,
 	- porch,
 	- wood deck,
-	- year built etc,
-
+	- year built etc.
+	
 	For houses built between 1872 and 2010, and their respectively sale price.  
 
-For the house profile provided by this dataset I have created the table from below which is was built up with a variable, meaning of each individual variable and units use to measure these variables.
+For the house profile provided in this dataset, I have created the table located below which has been built up with the variables provided by the dataset, and each individual meaning and units use to measure these variables.
 
 In any part of the project that you are on, and you don’t understand one of the categories that the analysis has been done, please refer to the below table. 
 
@@ -228,7 +248,7 @@ Quick project summary:
 ### Page 3: Price Predictor
 
 - State business requirement 2
-- List the details of the inherited houses and their respective price predictions.
+- List the details of my nieces' houses and their respective price predictions.
 - Display the total sum of all the predicted house sales price.
 - A set of widgets inputs, which relate to house sales dataset.
 - The best features, discovered during feature engineering notebook are available to my nice in order to capture the attribute of each house that she asked for a price prediction.
@@ -255,8 +275,8 @@ Quick project summary:
 
 ## Unfixed Bugs
 
-- As the project is still in inception, I do not know if there are any bugs yet. This will be updated once the project 
-will be almost finished. 
+- After conducting a set of tests, I haven found any bugs.
+- However, there are some warning as the pandas packages are updating, and some variables might not work accordingly. The project has been checked before submission on the 2nd of February, and everything works as expected.   
 
 ---
 
@@ -291,7 +311,7 @@ By forking the GitHub Repository you will be able to make a copy of the original
 1. Log in to GitHub and locate the GitHub Repository
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open commandline interface on your computer
+4. Open command line interface on your computer
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 3.
 
@@ -311,24 +331,22 @@ $ git clone [ADD Project link]
 
 ---
 
-## Credits
+## Credits & Content used.
 
----
+- The content of this project, represent the understanding provided by walk-through projects provided by Code Institute.
+- There might be some similarities as some contents have been copied and modified directly from the walk-through project 2 'Churnometer'. 
+- Some bugs and issues appeared withing the project have been fixed using [Stack Overflow](https://stackoverflow.com/).
+- I have explored in more details different terms used withing deep machine learning from [YouTube.](https://www.youtube.com/)
+- Some issues that I encountered during this project have resolved withing the Slack Community, many thanks to Niel_ci. 
+- The readme file has been built using the Code Institute template.
+- Some elements present in the readme file have been inspired from [Van-essa.](https://github.com/van-essa/heritage-housing-issues#readme) 
+- My mentor Marcel who guided me thru the project making sure the best practices are used.
 
-## Content
-
-TBC
-
----
-
-## References
-
-tbc
-
----
 
 ## Acknowledgements
 
-tbc
+Thank you Code Institute for this awesome course, I really enjoyed being taken from believing that coding is a gibberish language to actually understanding it and working with.
+- Many thanks to my both mentors who guided me throughout this course, Daisy and Marcel. 
+- And huge thanks to Jordan White, who introduced me to this course, and pushed me to don't stop, not mattering how hard it was at the time.  
 
 ---
