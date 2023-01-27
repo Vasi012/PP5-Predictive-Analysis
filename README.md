@@ -1,4 +1,4 @@
-![For Sale](/static/images/frsale.jpg "Price Predictor")
+![For Sale](/static/images/frsale.png "Price Predictor")
 <img align="right" width="225" height="100" src="https://learningpeople.imgix.net/https%3A%2F%2Fadmin.learningpeople.com%2Fwp-content%2Fuploads%2F2019%2F01%2Fcode-institute.png?ixlib=gatsbyFP&fit=crop&auto=compress%2Cformat&w=320&h=141&s=3becdd2d48871285d91458e006867cb4" alt="code institute logo">
 
 
@@ -23,7 +23,7 @@ This document has 1.461 rows and represents housing records from a city called A
 	- wood deck,
 	- year built etc,
 
-	For houses built between 1972 and 2010, and their respectively sale price.  
+	For houses built between 1872 and 2010, and their respectively sale price.  
 
 For the house profile provided by this dataset I have created the table from below which is was built up with a variable, meaning of each individual variable and units use to measure these variables.
 
