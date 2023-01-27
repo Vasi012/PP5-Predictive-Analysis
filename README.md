@@ -1,3 +1,8 @@
+![For Sale](/static/images/frsale.jpg "Price Predictor")
+<img align="right" width="225" height="100" src="https://learningpeople.imgix.net/https%3A%2F%2Fadmin.learningpeople.com%2Fwp-content%2Fuploads%2F2019%2F01%2Fcode-institute.png?ixlib=gatsbyFP&fit=crop&auto=compress%2Cformat&w=320&h=141&s=3becdd2d48871285d91458e006867cb4" alt="code institute logo">
+
+
+
 
 # Dataset Content
 
