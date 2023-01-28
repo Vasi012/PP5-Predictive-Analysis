@@ -136,6 +136,40 @@ List the business requirements and rationale to map them to the data visualizati
 
 - Visualize these variables against the sale price and summaries the insights.
 
+
+## Outcome after predicting pricing.
+
+- After conducting our study, we realised that the features that impact the price are:
+
+![FeaturesImactingPrice](/static/images/importancefeat.png)
+
+- We can take a closer look at each:
+- GrLivArea (Above grade (ground) living area square feet)
+
+![GrLivArea](/static/images/GrLivArea.png)
+
+- GarageArea (Size of garage in square feet)
+
+![GarageArea](/static/images/garageArea.png)
+
+- YearBuilt (Original construction date)
+
+![YearBuilt](/static/images/YearBuilt.png)
+
+- 1stFlrSF (First Floor square feet)
+
+![1stFlrSF](/static/images/train.png)
+
+- OverallQual (Rates the overall material and finish of the house)
+
+![OverallQual](/static/images/OverallQual.png)
+
+- TotalBsmtSF (Total square feet of basement area)
+
+![TotalBsmtSF](/static/images/TotalBsmtSF.png)
+
+- More details could be found in the live app, the link has been posted in the top of the read me / deployment. 
+
 ---
 
 ### Business requirement 2 
@@ -155,6 +189,18 @@ List the business requirements and rationale to map them to the data visualizati
 *Refer to the Scikit-learn lesson, Unit notebook 6: Cross-Validation Search Part 2.*
 
 *At the end of the notebook, is a list of hyperparameter options and values to start with for the family of algorithms covered in the course.*
+
+
+## Outcome after price prediction.
+
+- My niece wanted to find out what are the prices for the 6 houses. 
+
+![6predictions](/static/images/nieceprediction.png)
+
+- In the feature she could use the added tool to be able to predict pricing for houses by imputing her own inputs.This can be located on the deployed site.
+
+![ownimputs](/static/images/trypredict.png)
+
 
 ---
 
@@ -180,7 +226,7 @@ List the business requirements and rationale to map them to the data visualizati
 
 4.	What would make my niece consider this project a successful outcome?
 
-- For my niece to consider this a successful outcome, she would need to see a study showing the most relevant variables corelated to the sale price.
+- For my niece to consider this a successful outcome, she would need to see a study showing the most relevant variables correlated to the sale price.
 - Also, if she would like to predict other house prices from this region and of course the price of the 6 houses that she newly refurbished. 
 
 5.	As a data analyst I would like to be able to break down the project into epics and user stories. 
@@ -210,6 +256,18 @@ List the business requirements and rationale to map them to the data visualizati
 10.	How would my niece benefit from this?
 
 - My niece would be able to maximize the sale price for the newly refurbished houses as well as for future on sale houses that her small real estate agency might occur. 
+
+
+### Outcome after price prediction:
+
+- After the finalisation of this project, we could see that the R2 that i aggreed with my niece has been meet. She initialy requested an R2 score above 0.75. 
+
+![r2score](/static/images/scoretrainandtest.png)
+
+- And we can see how the train sets and test sets have been conducted so they can be almost similar.
+
+![testandtrain](/static/images/graftraintest.png)
+
 
 ---
 
