@@ -12,9 +12,10 @@ In this project you will be taken step by step withing everything that is happen
 
 At any point, if you get confused, please refer back to the readme file as you will find a lot of important information that has been used within the project.
 
-<-mokup image>
+![Mockup](/static/images/mockupp.png)
 
 
+**The live application can be found [here.](https://house-price-predictor-pp5.herokuapp.com/)**
 
 ## Dataset Content
 
@@ -373,13 +374,13 @@ By forking the GitHub Repository you will be able to make a copy of the original
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 3.
 
-$ git clone [ADD Project link]
+$ git clone [ADD Project link](https://house-price-predictor-pp5.herokuapp.com/)
 
 7. Press Enter. Your local clone will be created.
 
 ## Deployment To Heroku
 
-- The App live link is: add link
+- The App live link is: [HERE!](https://house-price-predictor-pp5.herokuapp.com/)
 - The project was deployed to Heroku using the following steps.
 1. Log in to Heroku and create an App
 2. At the Deploy tab, select GitHub as the deployment method.
