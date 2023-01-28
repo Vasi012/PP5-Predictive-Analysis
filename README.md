@@ -81,8 +81,13 @@ In any part of the project that you are on, and you don’t understand one of th
 
 
 --- 
+## Scrum Master - Development
+
+- In the beginning of the project i decided to create a project, where to input 'issues', the idea was to help me in following a direction while building this project. 
+- The Table Project can be found [here.](https://github.com/users/Vasi012/projects/4)
 
 
+![table](/static/images/pp5.png)
 
 ## Business Requirements.
 
