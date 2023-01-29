@@ -20,12 +20,14 @@ def page_price_predictor_body():
                       .columns
                       .to_list()
                       )
-    feature_importance = list(pd.read_csv(f"{path}/feature_importance.csv")['Feature'])
+    feature_importance = list(pd.read_csv
+                              (f"{path}/feature_importance.csv")['Feature'])
 
     st.write("### Sale Price Prediction for the refurbished houses:")
     st.success(
         f"* My niece is interested in predicting the house sales price"
-        f" for her 6 newly refurbished houses, and any other house in Ames, Iowa."
+        f" for her 6 newly refurbished houses, and any other house "
+        f"in Ames, Iowa."
         )
     st.write("---")
 
@@ -91,8 +93,9 @@ def predict_refurbished_house_price(price_pipe, price_features):
             )
         total_price += float(price_prediction)
         st.write(statement)
-        
+
     return total_price
+
 
 def check_variables_for_UI(price_features):
     import itertools
@@ -118,11 +121,11 @@ def DrawInputsWidgets():
     # we create input widgets for all features
     col1, col2 = st.beta_columns(2)
     col3, col4 = st.beta_columns(2)
-   
+
     # We are using these features to feed the ML pipeline
     # - values copied from check_variables_for_UI() result
     # '1stFlrSF', 'GarageArea', 'GrLivArea', 'YearBuilt'
- 
+
     # create an empty DataFrame, which will be the live data
     X_live = pd.DataFrame([], index=[0])
 

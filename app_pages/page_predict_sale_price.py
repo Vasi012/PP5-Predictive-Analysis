@@ -26,7 +26,8 @@ def page_predict_sale_price_body():
         f"for a given property.\n"
         f"* Both feature selection and PCA produced similar results and meet "
         f"business requirement 1. However, the feature selection "
-        f"performed better. Therefore, the best pipeline to use will be that. \n"
+        f"performed better. Therefore, the best pipeline to use will be "
+        f"that. \n"
         f"* Feature selection achieved an R2 Score: 0.97 on the train set and "
         f"an R2 Score: 0.78 on the test set.\n"
         f"* My niece has required an R2 Score of 0.75+.\n"
@@ -46,7 +47,7 @@ def page_predict_sale_price_body():
             new_str = feat_str
             cnt = 1
         else:
-            new_str = new_str + ', ' + feat_str 
+            new_str = new_str + ', ' + feat_str
 
     st.write(new_str)
     st.image(feat_importance_plot)

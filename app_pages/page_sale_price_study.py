@@ -15,7 +15,8 @@ def page_sale_price_study_body():
     # hard copied from sale price study notebook
     # The 5 variables that correlate to Sale Price
     # These variables will be tested on strength to predicting Sale Price
-    corr_var_list = ['1stFlrSF', 'GarageArea', 'GrLivArea', 'OverallQual', 'TotalBsmtSF', 'YearBuilt']
+    corr_var_list = ['1stFlrSF', 'GarageArea', 'GrLivArea',
+                     'OverallQual', 'TotalBsmtSF', 'YearBuilt']
 
     st.write("### House Sale Price Study")
     st.info(
@@ -37,10 +38,13 @@ def page_sale_price_study_body():
 
     # Correlation Study Summary
     st.success(
-        f"* Correlation studies were conducted, using the Pearson and Spearman methods "
-        f"to better understand how the variables correlate to the sale price.\n"
+        f"* Correlation studies were conducted, using the Pearson and "
+        f"Spearman methods "
+        f"to better understand how the variables correlate to the "
+        f"sale price.\n"
         f"* The most correlated variable are: \n"
-        f"  * **1stFlrSF, GarageArea, GrLivArea, OverallQual, TotalBsmtSF, YearBuilt**"
+        f"  * **1stFlrSF, GarageArea, GrLivArea, OverallQual, "
+        f"TotalBsmtSF, YearBuilt**"
     )
 
     # Text based on "sale price study" notebook
@@ -52,7 +56,8 @@ def page_sale_price_study_body():
         f"* 1stFlrSF: First Floor square feet.\n"
         f"* GarageArea: Size of garage in square feet.\n"
         f"* GrLivArea: Above grade (ground) living area square feet.\n"
-        f"* OverallQual: Rates the overall quality of the material and finish of the house when constructed / refurbished.\n"
+        f"* OverallQual: Rates the overall quality of the material "
+        f"and finish of the house when constructed / refurbished.\n"
         f"* TotalBsmtSF: Total square feet of basement area.\n"
         f"* YearBuilt: Original construction date (1872 to 2010).\n\n"
         f"The plots show that the variables, isolated in the "

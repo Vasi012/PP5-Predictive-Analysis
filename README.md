@@ -81,10 +81,10 @@ In any part of the project that you are on, and you don’t understand one of th
 
 
 --- 
-## Scrum Master - Development
+## Agile methodology - Development
 
-- In the beginning of the project i decided to create a project, where to input 'issues', the idea was to help me in following a direction while building this project. 
-- The Table Project can be found [here.](https://github.com/users/Vasi012/projects/4)
+- In the beginning of the project I decided to create a Kanban project, where to input 'issues', the idea was to help me in following a direction while building this project. 
+- The Kanban Table Project can be found [here.](https://github.com/users/Vasi012/projects/4)
 
 
 ![table](/static/images/pp5.png)
@@ -342,6 +342,27 @@ Quick project summary:
 - After conducting a set of tests, I haven found any bugs.
 - However, there are some warning as the pandas packages are updating, and some variables might not work accordingly. The project has been checked before submission on the 2nd of February, and everything works as expected.   
 
+## Test conducted on the Python Code:
+
+- As this project has been built using mainly back-end programing with Python, I have tested the python code using "python3 -m flake8 app_pages".
+
+- I have used the flake8 inside the terminal, as the pep8 page that has usually been deactivated, making impossible to check the code via this website. However, flake8 seems to be quite aurated. 
+
+**How to use flake8?**
+
+- Firstly, we have to open GitPod, open our project, and in the terminal we install flake8.
+	- pip install flake8, once flake8 has been installed we need to run another command in the terminal.
+	- python3 -m flake8 < app name >, (here we have to insert the folder name where we can find the python code.)
+
+- After conducting this test, we have noticed that we have an warning "f-string is missing placeholders"
+
+![test](/static/images/test.png)
+
+- Because just pointing out that there are no placeholders is not enough to determine which variables to include.
+- However, the code seems to work as expected, therefore I have decided to ignore this warnings. 
+
+
+- Furthermore, as the front-end of the website has been built using Streamlit, there is not any reason to check the front-end using Wave or Lighthouse, as the website has not been built by me. However, everything works as expected, all the pictures and text are loading fast and as expected.
 ---
 
 ## Deployment
