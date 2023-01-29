@@ -89,6 +89,27 @@ In any part of the project that you are on, and you don’t understand one of th
 
 ![table](/static/images/pp5.png)
 
+---
+## Crisp-DM, what it is? how it's used?
+
+![Crisp-dm](/static/images/CRISP-DM.png)
+
+- Crisp-DM or CRoss Industry Standard Process for Data mining is a process model that serves as the base for a data science process.
+
+- Crisp-DM has six sequential phases:
+
+1. Business Understanding - What does the business need?
+2. Data Understanding - What data do we have / need? Is it clean?
+	- Don't forget, garbage in, garbage out, so make sure your data is cleaned.
+3. Data Preparation - How do we organize the data for modeling?
+4. Modeling - What modeling techniques should we apply?
+5. Evaluation - Which model best meets the business's objectives?
+6. Deployment - How do stakeholders access the results?
+
+If you will like to reserch more indept what each of the above sequential phases mean and how to use them, please refer to [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). 
+
+---
+
 ## Business Requirements.
 
 I am studying a Full Stack Developer course with Code Institute. I just learnt how to use Machine Learning as part of my last project and how to predict future trends which I will be using in my career as a Data Scientist. 
@@ -413,6 +434,19 @@ $ git clone [ADD Project link](https://house-price-predictor-pp5.herokuapp.com/)
 3. Select your repository name and click Search. Once it is found, click Connect.
 4. Select the branch you want to deploy, then click Deploy Branch.
 5. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
+
+---
+## Conclusion
+
+- The project requires a dataset, this dataset has been found on Kaggle, used and cleaned in order to be able to use withing my project.
+- Each variable has been added into a table (can be found in the readme file), with the meaning and the units measured to measure each variable.
+- The Agile methodology, has been used to allow me to clearly see the steps required for this project, helping me to manage, and ensure that I don't omit any required part off this project. Each 'issue' posted in the Kanban table, represent a part of the project, if you click on each of them, an explanation will be showed.
+- The business requirements have been created using the CRISP-DM model. The project has been built to help my niece's business in order to be able to predict housing prices. 
+- A dashboard has been created using streamlit, where all the details can be exposed to the stakeholders, in this case just my niece. The dashboard has been created so that a person who doesn't understand ML will find easy to understand what is all about.
+- The project has been deployed on heroku, please refer to the above steps.
+
+Overall, the project is a success as all the requirements have been meet, my niece is happy with the predicted price, however, due to the inflation, after a little bit of checking we realized that we have to add 10.5% to the house prices, but this might vary depending on how the inflation will grow or decrease. 
+
 
 ---
 
