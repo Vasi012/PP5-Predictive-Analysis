@@ -24,19 +24,19 @@ def page_summary_body():
         f"Wood Deck, Year Built "
         f"and the respective sale price, for houses built between "
         f"1872 and 2010.\n\n"
-        f"**SalePrice** represents the price a house sold for and "
+        f"**SalePrice** represents the price a house was sold for and "
         f"is our target variable.\n\n"
         f"**Ames, Iowa**\n"
-        f"* Ames has a robust, stable economy and a flourish cultural "
-        f"environment, with a population\n "
+        f"* Ames has a robust, stable economy, and a flourish cultural "
+        f"environment with a population\n "
         f"of 89.540 people. \n\n")
 
     # "Business Requirements" section
     """Business Requirements"""
     st.success(
         f"The project has 2 business requirements:\n"
-        f"* 1 - My niece is interested in discovering how house attributes "
-        f"correlate with the sale price.\n"
+        f"* 1 - My niece is interested in discovering how exactly house "
+        f"attributes correlate with the sale price.\n"
         f"  * My niece expects data visualizations of the correlated "
         f"variables against the sale price.\n"
         f"* 2 - My niece is interested in predicting the house sales price "

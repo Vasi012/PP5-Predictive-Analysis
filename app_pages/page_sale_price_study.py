@@ -60,7 +60,7 @@ def page_sale_price_study_body():
         f"and finish of the house when constructed / refurbished.\n"
         f"* TotalBsmtSF: Total square feet of basement area.\n"
         f"* YearBuilt: Original construction date (1872 to 2010).\n\n"
-        f"The plots show that the variables, isolated in the "
+        f"The plots show that the variables isolated in the "
         f" correlation study, do indeed have a strong correlation and "
         f" possibly strong predictive power for Sale Price for these houses.\n"
     )
