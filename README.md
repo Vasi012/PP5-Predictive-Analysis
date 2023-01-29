@@ -35,14 +35,14 @@ Therefore, I have decided to trust this dataset and use it within my project.
 This document contains 1.460 *(1.461 including the name of each variable)* rows and represents housing records from a city called Ames located within the region of Iowa, US.
 
 - This dataset contains house profiles, such as: 
-	- floor areas, 
-	- basement,
-	- garage,
-	- kitchen,
-	- lot,
-	- porch,
-	- wood deck,
-	- year built etc.
+	- floor areas; 
+	- basement;
+	- garage;
+	- kitchen;
+	- lot;
+	- porch;
+	- wood deck;
+	- year built, etc.
 	
 	For houses built between 1872 and 2010, and their respectively sale price.  
 
@@ -114,7 +114,7 @@ If you will like to reserch more indept what each of the above sequential phases
 
 I am studying a Full Stack Developer course with Code Institute. I just learnt how to use Machine Learning as part of my last project and how to predict future trends which I will be using in my career as a Data Scientist. 
 
-My niece who lives in America started a little real estate business, and part of her vision was to buy 6 houses in a small town from Iowa, called Ames. As Ames is known for its robust, stable economy and flourishing cultural environment with a population over 89,540 people, my niece believes that this will be a very good investment. Buying some old houses, refurbish them and after selling them at a higher price. 
+My niece who lives in America started a small real estate business, and part of her vision was to buy 6 houses in a small town from Iowa, called Ames. As Ames is known for its robust, stable economy and flourishing cultural environment with a population over 89,540 people, my niece believes that this will be a very good investment. Buying some old houses, refurbish them and after that selling them at a higher price. 
 
 Overall, my niece has a good understanding of the average prices for the houses in this region. However, because this investment will be very important for her business, she reached out to her uncle who will be able to use the power of machine learning to predict the prices for these homes, without risking an inaccurate appraisal. 
 
@@ -126,7 +126,7 @@ My niece has conducted research, and she found a public dataset for the houses t
 
 1. Hypothesis one.
 
-- We consider the price of houses to be higher if the house has had a larger surface measured in sq. ft.
+- We consider the price of the houses to be higher if the house has had a larger surface measured in sq. ft.
 	- A correlation study can help in investigating if this is true.
 
 2. Hypothesis Two.
@@ -241,7 +241,7 @@ List the business requirements and rationale to map them to the data visualizati
 
 - My niece would like to discover how the house attributes correlate with the sale price.
 - Therefore, she would expect to be able to visualize the correlation variables against the sale price. (This will be discussed in the business requirement 2).
-- My niece would be interested in predicted the price of the newly refurbished houses, and any other new houses that she would buy in the future.
+- My niece would be interested in predicting the price of the newly refurbished houses, and any other new houses that she would buy in the future.
 
 2.	Can the above business requirements be answered with conventional data analysis?
 
@@ -276,18 +276,18 @@ List the business requirements and rationale to map them to the data visualizati
 
 - The sale price can be influenced by the house attribute information provided above, and the outputs is the predicted sale price.
 
-9.	What are the criteria for the performance goal of the predictions?
+9.	What is the criteria for the performance goal of the predictions?
 
 - I have agreed with my niece that an R2 score of at least 0.75 on the train set as well as on the test set would be perfect.
 
 10.	How would my niece benefit from this?
 
-- My niece would be able to maximize the sale price for the newly refurbished houses as well as for future on sale houses that her small real estate agency might occur. 
+- My niece would be able to maximize the sale price for the newly refurbished houses. Furthermore, she will be able to benefit from this in the future for selling the houses which her small real estate agency might occur. 
 
 
 ### Outcome after price prediction:
 
-- After the finalisation of this project, we could see that the R2 that i aggreed with my niece has been meet. She initialy requested an R2 score above 0.75. 
+- After the finalisation of this project, we could see that the R2 that i agreed with my niece has been met. She initially requested an R2 score above 0.75. 
 
 ![r2score](/static/images/scoretrainandtest.png)
 
@@ -305,10 +305,10 @@ List the business requirements and rationale to map them to the data visualizati
 The dashboard should contain:
 
 - A project summary page, showing the project dataset summary and my niece’s requirements for this project.
-- A page listing the findings related to which features that have the strongest correlation to the house sale price.
+- A page listing the findings related to which features have the strongest correlation to the house sale price.
 - A page displaying the 6 houses attributes and their respective predicted sale price.
-- It should display a message informing the summed predicted price for all the 6 houses newly refurbished.
-- Add interactive input and widgets that allow a user to provide real-time house data to predict the sale price.
+- It should display a message informing the summed predicted price for all of the 6 houses newly refurbished.
+- Add interactive input and widgets which allows a user to provide real-time house data to predict the sale price.
 - A page indicating my project hypothesis(es) and how I would validate it across the project. 
 - A technical page displaying my model performance, and if I would deploy a ML pipeline to have displayed my pipeline steps. 
 
@@ -333,10 +333,10 @@ Quick project summary:
 ### Page 3: Price Predictor
 
 - State business requirement 2
-- List the details of my nieces' houses and their respective price predictions.
+- List the details of my niece's houses and their respective price predictions.
 - Display the total sum of all the predicted house sales price.
 - A set of widgets inputs, which relate to house sales dataset.
-- The best features, discovered during feature engineering notebook are available to my nice in order to capture the attribute of each house that she asked for a price prediction.
+- The best features, discovered during feature engineering notebook are available to my niece in order to capture the attribute of each house that she asked for a price prediction.
 - “Run predictive analysis”, this button serves to house data, provided by my niece, to the ML pipelines, and predicts the sale price for the house and displays the result to her (Therefore, she would be able to calculate the price as well for these 6 houses, and in future for the other houses that she might buy or sell). 
 
 ### Page 4: Project Hypothesis and Validation
@@ -345,7 +345,7 @@ Quick project summary:
 
 - After the data analysis, we can report that:
 
-1. An evaluation of sales price of other houses from this area are based on similar attributes with the 6 houses that my niece would like to sell, therefore, this project should provide an accurate prediction of sales price for each house. 
+1. An evaluation of sales price of other houses from this area are based on similar attributes with the 6 houses that my niece would like to sell. Therefore, this project should provide an accurate prediction of sales price for each house. 
 
 2. The correlation analysis shows that the sizes of the ground floor living area, the first floor, the basement, and the garage, play a key role in determining the house price. In addition, the year of the house when was built and the last refurbishment, the quality of the used materials also plays a significant role in determining a house price. 
 
@@ -360,14 +360,14 @@ Quick project summary:
 
 ## Unfixed Bugs
 
-- After conducting a set of tests, I haven found any bugs.
-- However, there are some warning as the pandas packages are updating, and some variables might not work accordingly. The project has been checked before submission on the 2nd of February, and everything works as expected.   
+- After conducting a set of tests, I haven't found any bugs.
+- However, there are some warning as the panda packages are updating, and some variables might not work accordingly. I would like to point out at this stage that the template provided by the Code Institute didn't have an updated version for the panda packages. Having this said, I was unsure if I needed to update them or not. The project has been checked before submission on the 2nd of February, and everything works as expected. Once the submission of the project was successful, I will make sure update these packages in order for the project to be able to work at its fully potential.   
 
 ## Test conducted on the Python Code:
 
 - As this project has been built using mainly back-end programing with Python, I have tested the python code using "python3 -m flake8 app_pages".
 
-- I have used the flake8 inside the terminal, as the pep8 page that has usually been deactivated, making impossible to check the code via this website. However, flake8 seems to be quite aurated. 
+- I have used the flake8 inside the terminal, as the pep8 page has been deactivated resulting in making impossible to check the code via this website. However, flake8 seems to be quite accurate. 
 
 **How to use flake8?**
 
@@ -380,7 +380,7 @@ Quick project summary:
 ![test](/static/images/test.png)
 
 - Because just pointing out that there are no placeholders is not enough to determine which variables to include.
-- However, the code seems to work as expected, therefore I have decided to ignore this warnings. 
+- However, the code seems to work as expected, therefore I have decided to ignore these warnings. 
 
 
 - Furthermore, as the front-end of the website has been built using Streamlit, there is not any reason to check the front-end using Wave or Lighthouse, as the website has not been built by me. However, everything works as expected, all the pictures and text are loading fast and as expected.
@@ -438,14 +438,14 @@ $ git clone [ADD Project link](https://house-price-predictor-pp5.herokuapp.com/)
 ---
 ## Conclusion
 
-- The project requires a dataset, this dataset has been found on Kaggle, used and cleaned in order to be able to use withing my project.
+- The project requires a dataset. This dataset was found on Kaggle, used and cleaned in order to be able to use it withing my project.
 - Each variable has been added into a table (can be found in the readme file), with the meaning and the units measured to measure each variable.
-- The Agile methodology, has been used to allow me to clearly see the steps required for this project, helping me to manage, and ensure that I don't omit any required part off this project. Each 'issue' posted in the Kanban table, represent a part of the project, if you click on each of them, an explanation will be showed.
+- The Agile methodology has been used to allow me to clearly see the steps required for this project, helping me to manage, and ensure that I don't omit any required part off this project. Each 'issue' posted in the Kanban table represents a part of the project, if you click on each of them, an explanation will be displayed.
 - The business requirements have been created using the CRISP-DM model. The project has been built to help my niece's business in order to be able to predict housing prices. 
 - A dashboard has been created using streamlit, where all the details can be exposed to the stakeholders, in this case just my niece. The dashboard has been created so that a person who doesn't understand ML will find easy to understand what is all about.
 - The project has been deployed on heroku, please refer to the above steps.
 
-Overall, the project is a success as all the requirements have been meet, my niece is happy with the predicted price, however, due to the inflation, after a little bit of checking we realized that we have to add 10.5% to the house prices, but this might vary depending on how the inflation will grow or decrease. 
+Overall, the project is a success as all the requirements have been met and my niece is happy with the predicted price. However, due to the inflation, after a little bit of checking we realized that we have to add 10.5% to the house prices, but this might vary depending on how the inflation will grow or decrease. 
 
 
 ---
@@ -453,19 +453,19 @@ Overall, the project is a success as all the requirements have been meet, my nie
 ## Credits & Content used.
 
 - The content of this project, represent the understanding provided by walk-through projects provided by Code Institute.
-- There might be some similarities as some contents have been copied and modified directly from the walk-through project 2 'Churnometer'. 
-- Some bugs and issues appeared withing the project have been fixed using [Stack Overflow](https://stackoverflow.com/).
-- I have explored in more details different terms used withing deep machine learning from [YouTube.](https://www.youtube.com/)
-- Some issues that I encountered during this project have resolved withing the Slack Community, many thanks to Niel_ci. 
-- The readme file has been built using the Code Institute template.
-- Some elements present in the readme file have been inspired from [Van-essa.](https://github.com/van-essa/heritage-housing-issues#readme) 
-- My mentor Marcel who guided me thru the project making sure the best practices are used.
+	- There might be some similarities as some contents have been copied and modified directly from the walk-through project 2 'Churnometer'. 
+- Some bugs and issues appeared withing the project which have been fixed using [Stack Overflow](https://stackoverflow.com/).
+- I have explored in more details different terms used within deep machine learning from [YouTube.](https://www.youtube.com/)
+- Some issues that I encountered during this project have been resolved within the Slack Community, many thanks to Niel_ci. 
+- The readme file was built using the Code Institute template.
+- Some elements presented in the readme file have been inspired from [Van-essa.](https://github.com/van-essa/heritage-housing-issues#readme) 
+- My mentor Marcel who guided me through the project making sure the best practices were used.
 
 
 ## Acknowledgements
 
-Thank you Code Institute for this awesome course, I really enjoyed being taken from believing that coding is a gibberish language to actually understanding it and working with.
+Thank you Code Institute for this awesome course. I have really enjoyed this experience and the way my mindset was changed from believing that coding is just a gibberish language to actually understanding it and working with it. 
 - Many thanks to my both mentors who guided me throughout this course, Daisy and Marcel. 
-- And huge thanks to Jordan White, who introduced me to this course, and pushed me to don't stop, not mattering how hard it was at the time.  
+- And huge thanks to Jordan White, who introduced me to this course.
 
 ---
